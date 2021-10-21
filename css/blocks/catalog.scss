@@ -1,0 +1,62 @@
+.catalog {
+    padding: var(--big-offset);
+}
+.container {
+}
+.catalog__container {
+}
+.title {
+}
+.catalog__title {
+    margin-bottom: 40px;
+}
+.catalog__content {
+}
+.grid {
+}
+.catalog__left {
+    grid-column: 3 span;
+}
+.catalog__grid {
+    grid-column: 9 span;
+}
+
+.catalog-list {
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.catalog-list__item {
+    grid-column: 3 span;
+}
+.product {
+}
+.product__image {
+    position: relative;
+    width: 100%;
+    max-height: 293px;
+    margin-bottom: 10px;
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.product__btns {
+    display: none;
+}
+.product__btn {
+}
+.product__title {
+    font-family: 'Intro-book', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-main);
+    margin-bottom: 10px;
+}
+.product__price {
+    font-size: 20px;
+    font-family: 'Intro';
+    font-weight: 400;
+    color: var(--color-main);
+}

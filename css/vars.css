@@ -1,0 +1,17 @@
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-eastbay: #484283;
+    --color-accent: #f14f4f;
+    --color-accent-hover: #cc4949;
+    --color-border: rgba(255,255,255, 0.5);
+    --color-main: #444B58;
+
+    --grid-gap: 20px;
+    --main-offset: 40px;
+    --second-offset: 20px;
+    --big-offset: 60px;
+
+    --middle-high: 700 30px / 140% "Intro";
+    --small: 400 14px / 140% "Intro-book";
+}
