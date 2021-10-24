@@ -1,0 +1,48 @@
+.team {
+    position: relative;
+    background-color: var(--color-eastbay);
+    padding: 60px 0;
+    &__figure{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+.container {
+}
+.team__container {
+}
+
+.team__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 40px;
+}
+.team__list {
+    gap: 40px 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.team__item {
+    grid-column: 4 span;
+}
+.team__img {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+
+}
+.team__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+.team__post {
+    font-family: 'Intro-book', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-white);
+}
