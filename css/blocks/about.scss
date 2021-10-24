@@ -1,0 +1,83 @@
+.about {
+    overflow: hidden;
+    background-color: var(--color-eastbay);
+    height: 580px;
+    position: relative;
+    &__text{
+       max-width: 380px;
+    }
+    &__figure{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+.container {
+}
+.about__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.title {
+}
+.about__title {
+    margin-bottom: 20px;
+    color: var(--color-white);
+    font-weight: 700;
+}
+.about__text {
+    font-size: 16px;
+    font-family: 'Intro-book';
+    font-weight: 400;
+    line-height: 125%;
+    color: var(--color-white);
+}
+.about__descr {
+}
+.about__quote {
+    &::after, &::before{
+        display: none;
+    }
+    margin-bottom: 20px;
+}
+.about__author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 700;
+    color: var(--color-white);
+    transform: translateX(50px);
+    font-size: 20px;
+    &::before{
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 3px;
+        background-color: var(--color-white);
+        margin-right: 20px;
+    }
+}
+.about__image {
+    position: absolute;
+    flex-shrink: 0;
+    right: 125px;
+    top: -150px;
+    transform: rotate(15deg);
+    width: 580px;
+    height: 1000px;
+    overflow: hidden;
+
+    img{
+        position: relative;
+        left: 50%;
+        max-width: none;
+        width: 140%;
+        height: 100%;
+        object-fit: cover;
+        transform: rotate(-15deg) translateX(-50%);
+
+    }
+}

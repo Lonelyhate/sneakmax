@@ -3,5 +3,7 @@
 @import 'vars.css';
 @import 'blocks/header.css';
 @import 'blocks/hero.css';
-@import 'blocks/catalog.css'
+@import 'blocks/catalog.css';
+@import 'blocks/about.css';
+@import 'blocks/quiz.css';
 
