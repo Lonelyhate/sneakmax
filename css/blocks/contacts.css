@@ -1,0 +1,48 @@
+.contacts {
+  background-color: #F3F7F6;
+  padding: 60px 0;
+}
+
+.contacts__title {
+  margin-bottom: 60px;
+}
+
+.contacts__item {
+  margin-bottom: 40px;
+}
+
+.contacts__subtitle {
+  font-family: 'Intro-book';
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #B2B5BB;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.contacts__phone {
+  font-size: 30px;
+  line-height: 42px;
+  color: #444B58;
+  margin-bottom: 10px;
+}
+
+.contacts__address {
+  display: block;
+  font-family: 'Intro-book', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #444B58;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=contacts.css.map */
