@@ -1,0 +1,37 @@
+.footer {
+    background-color: #444B58;
+    width: 100%;
+    padding: 20px 0px;
+}
+.container {
+}
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+}
+.footer__logo {
+    grid-column: 2 span;
+}
+.footer__link-logo {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--color-white);
+}
+.footer__menu {
+    grid-column: 10 span;
+}
+.footer__list {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer__item {
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+.footer__link {
+    color: var(--color-white);
+    font-family: 'Intro-book';
+    font-size: 14px;
+}

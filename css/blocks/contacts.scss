@@ -1,8 +1,19 @@
 .contacts{
     background-color: #F3F7F6;
     padding: 60px 0;
+    &__map{
+        width: 680px;
+        height: 500px;
+    }
+    &__container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
 }
 .contacts__text {
+    margin-right: 20px;
+    width: calc(100% - (680px + 20px));
 }
 .contacts__title {
     margin-bottom: 60px;

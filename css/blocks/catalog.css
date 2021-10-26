@@ -289,6 +289,17 @@ input[type=range] {
 
 .product {
   border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
 }
 
 .product:hover .product__btns {
@@ -306,7 +317,7 @@ input[type=range] {
 .product__image img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 293px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -380,6 +391,7 @@ input[type=range] {
   font-family: 'Intro';
   font-weight: 400;
   color: var(--color-main);
+  margin-top: auto;
 }
 
 .catalog__btn-show {
