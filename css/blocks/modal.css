@@ -49,6 +49,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 40px;
 }
 
 .product-slider {
@@ -72,6 +73,7 @@
 
 .product__slide img {
   width: 320px;
+  height: 450px;
 }
 
 .product-slider__left {
@@ -96,14 +98,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .modal-preview__item {
   cursor: pointer;
   border-radius: 4px;
+  margin-right: 10px;
 }
 
 .modal-preview__item img {
@@ -185,7 +185,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .modal-sizes__item:not(:last-child) {
@@ -196,11 +197,13 @@
   background: none;
   border: 1px solid #b2b5bb;
   cursor: pointer;
-  padding: 9px 26px;
+  padding: 9px 0;
+  width: 62px;
   font-family: 'Intro-book';
   font-size: 14px;
   color: #444B58;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .modal-info__current-price {
@@ -229,7 +232,7 @@
 }
 
 .modal-note {
-  margin-top: 31px;
+  margin-top: 51px;
 }
 
 .modal-note__item {
@@ -240,5 +243,56 @@
 
 .modal-note__item svg {
   margin-right: 10px;
+}
+
+.prod-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prod-bottom__column {
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.prod-bottom__column:first-child {
+  margin-right: 10px;
+}
+
+.prod-bottom__title {
+  font-family: 'Intro-book';
+  font-size: 24px;
+  font-weight: 400;
+  color: #444B58;
+  margin-bottom: 20px;
+}
+
+.prod-bottom__descr {
+  font-family: 'Intro-book';
+  max-height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444B58;
+}
+
+.prod-chars {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=modal.css.map */

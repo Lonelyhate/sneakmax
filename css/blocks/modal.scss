@@ -37,6 +37,7 @@
 }
 .prod-modal__top {
     display: flex;
+    margin-bottom: 40px;
 }
 .product-slider {
     width: 320px;
@@ -54,6 +55,7 @@
 .product__slide {
     img{
         width: 320px;
+        height: 450px;
     }
 }
 .product-slider__left {
@@ -72,11 +74,12 @@
 }
 .modal-preview {
     display: flex;
-    justify-content: space-between;
+
 }
 .modal-preview__item {
     cursor: pointer;
     border-radius: 4px;
+    margin-right: 10px;
     img{
         width: 45px;
     }
@@ -132,9 +135,10 @@
 }
 .modal-sizes {
     display: flex;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 .modal-sizes__item {
+    
     &:not(:last-child) {
         margin-right: 20px;
     }
@@ -143,11 +147,13 @@
     background: none;
     border: 1px solid #b2b5bb;
     cursor: pointer;
-    padding: 9px 26px;
+    padding: 9px 0;
+    width: 62px;
     font-family: 'Intro-book';
     font-size: 14px;
     color: #444B58;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 .modal-info__price {
 }
@@ -176,7 +182,7 @@
 .modal-info__note {
 }
 .modal-note {
-    margin-top: 31px;
+    margin-top: 51px;
 }
 .modal-note__item {
     svg{
@@ -189,14 +195,37 @@
 .prod-modal__bottom {
 }
 .prod-bottom {
+    display: flex;
 }
 .prod-bottom__column {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    &:first-child{
+        margin-right: 10px;
+    }
 }
 .prod-bottom__title {
+    font-family: 'Intro-book';
+    font-size: 24px;
+    font-weight: 400;
+    color: #444B58;
+    margin-bottom: 20px;
+
 }
 .prod-bottom__descr {
+    font-family: 'Intro-book';
+    max-height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444B58;
 }
 .prod-chars {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .prod-chars__item {
+    
 }
