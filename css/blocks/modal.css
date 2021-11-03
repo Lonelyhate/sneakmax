@@ -53,7 +53,7 @@
 }
 
 .product-slider {
-  width: 320px;
+  width: 300px;
   margin-right: 10px;
 }
 
@@ -72,8 +72,8 @@
 }
 
 .product__slide img {
-  width: 320px;
-  height: 450px;
+  width: 300px;
+  height: 340px;
 }
 
 .product-slider__left {
@@ -106,8 +106,17 @@
   margin-right: 10px;
 }
 
+.modal-preview__item:hover {
+  opacity: 0.5;
+}
+
+.modal-preview__item--active {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .modal-preview__item img {
-  width: 45px;
+  width: 42px;
 }
 
 .modal-info {

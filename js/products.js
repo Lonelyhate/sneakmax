@@ -50,8 +50,6 @@ const loadModalData = (id = 1) => {
 
                 prodModalSlider.innerHTML = slides.join('')
                 prodModalSlider.nextElementSibling.innerHTML = preview.join('')
-                slideStart()
-
                 prodModalInfo.innerHTML = `
                 <h3 class="modal-info__title">${dataItem.title}</h3>
                 <div class="modal-info__rate">
@@ -84,7 +82,7 @@ const loadModalData = (id = 1) => {
                 `
 
                 prodModalDescr.textContent = dataItem.description
-
+                slideStart()
                 let charsItems = ''
                 Object.keys(dataItem.chars).forEach(function eachKey(key) {
                     charsItems += `<p class="prod-bottom__descr prod-chars__item">${key}: ${dataItem.chars[key]}</p>`
@@ -105,7 +103,6 @@ const setModalProduct = () => {
             // document.body.style.overflow = 'hidden'
             
             const openBtnId = el.dataset.id
-
             loadModalData(openBtnId)
         })
     })
@@ -116,6 +113,9 @@ const setModalProduct = () => {
             modalContent.classList.remove('modal__content--visable')
             // modal.classList.remove('modal--visable')
             document.body.style.overflow = ''
+            setTimeout(() => {
+                document.querySelector('.product-slider__wrapper').style.transform = 'translateX(0px)'
+            }, 300)
         }
     })
 }
