@@ -79,6 +79,10 @@
   padding: 0;
 }
 
+.cart__btn svg {
+  pointer-events: none;
+}
+
 .cart__count {
   position: absolute;
   right: -6px;
@@ -98,5 +102,6 @@
   background-color: var(--color-accent);
   font: var(--small);
   color: var(--color-white);
+  pointer-events: none;
 }
 /*# sourceMappingURL=header.css.map */

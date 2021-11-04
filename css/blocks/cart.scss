@@ -1,0 +1,135 @@
+.cart {
+    position: relative;
+}
+.header__cart {
+}
+.cart__btn {
+}
+.btn {
+}
+.cart__count {
+}
+.mini-cart {
+    position: absolute;
+    top: 52px;
+    right: 0;
+    box-shadow: 0px -4px 10px rgba(0, 13, 84, 0.1);
+    background-color: var(--color-white);
+    width: 480px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    &--visable{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.mini-cart__top {
+    max-height: 323px;
+}
+.mini-cart__list {
+    max-height: 323px;
+}
+.mini-cart__item {
+}
+.mini-cart__product {
+}
+.mini-product {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.mini-product__image {
+    width: 100px;
+    height: 57px;
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.mini-product__content {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+.mini-product__text {
+    max-width: 278px;
+    
+}
+.mini-product__title {
+    font-family: 'Intro-book';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--color-main);
+    margin-bottom: 14px;
+}
+.mini-product__price {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-main);
+}
+.mini-product__delete {
+    padding: 0;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    svg{
+        path{
+            transition: all 0.2s linear;
+        }
+    }
+}
+.mini-product__delete svg:hover{
+    path{
+        fill: #F14F4F;
+    }
+}
+.mini-cart__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px -4px 10px rgba(0, 13, 84, 0.1);
+}
+.mini-cart__itog {
+}
+.mini-cart__txt {
+    font-family: "Intro-book", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-main);
+    margin-bottom: 10px;
+    display: block;
+}
+.mini-cart__summ {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-main);
+}
+.mini-cart__btn{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.simplebar-track.simplebar-vertical{
+    right: 5px;
+    top: 10px;
+    bottom: 10px;
+    width: 4px;
+    border-radius: 5px;
+    background: rgba(77, 77, 77, 0.1);
+}
+.simplebar-scrollbar::before{
+    border-radius: 5px;
+    width: 4px;
+    left: 0;
+    right: auto;
+    opacity: 1;
+    background: rgba(77, 77, 77, 0.2);
+}

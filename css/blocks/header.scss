@@ -68,6 +68,9 @@
     background-color: inherit;
     border: none;
     padding: 0;
+    svg{
+        pointer-events: none;
+    }
 }
 .header__cart {
 }
@@ -84,4 +87,5 @@
     background-color: var(--color-accent);
     font: var(--small);
     color: var(--color-white);
+    pointer-events: none;
 }

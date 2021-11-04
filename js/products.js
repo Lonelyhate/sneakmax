@@ -100,7 +100,7 @@ const setModalProduct = () => {
             modal.classList.add('modal--visable')
             modalOverlay.classList.add('modal__overlay--visable')
             modalContent.classList.add('modal__content--visable')
-            // document.body.style.overflow = 'hidden'
+            document.body.style.overflow = 'hidden'
             
             const openBtnId = el.dataset.id
             loadModalData(openBtnId)
