@@ -537,6 +537,52 @@
         </div>
     </div>
 
+    <div class="modal__buy">
+        <div class="modal__overlay-buy">
+            <div class="modal__content-buy cart-modal">
+                <div class="cart-modal__top">
+                    <h2 class="cart-modal__title">Оформление заказа</h2>
+                    <span class="cart-modal__order-number">Заказ 3456 67</span>
+                </div>
+                <div class="cart-modal-order">
+                    <div class="cart-modal-order__top">
+                        <span class="cart-modal-order__quantity">Товаров в заказе: <span>3 шт</span></span>
+                        <span class="cart-modal-order__summ">Общая сумма заказа: <span>25 789 ₽</span></span>
+                    </div>
+                    <div class="cart-modal-order__content">
+                        <button class="cart-modal-order__show">Состав заказа
+                            <svg width="7" height="4" viewBox="0 0 7 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.92012 3.68997C6.81343 3.79687 6.64032 3.79704 6.53341 3.69037L3.69335 0.856202C3.58672 0.749589 3.41327 0.749603 3.30645 0.856408L0.466594 3.69037C0.359693 3.79705 0.18658 3.79687 0.0798849 3.68997C-0.0267831 3.58307 -0.0266053 3.40994 0.0802814 3.30328L2.91994 0.469507C3.07992 0.30956 3.28999 0.229607 3.50008 0.229607C3.71005 0.229607 3.92007 0.309532 4.07984 0.469316L6.91972 3.30328C7.02661 3.40994 7.02678 3.58307 6.92012 3.68997Z" fill="#444B58"/>
+                                </svg>
+                        </button>
+                        <ul class="cart-modal-order__list">
+                            <li class="cart-modal-order__item">
+                                <article class="cart-modal-order__product  cart-modal-product">
+                                    <div class="cart-modal-product__image">
+                                        <img src="img/product/2.jpg" alt="">
+                                    </div>
+                                    <div class="cart-modal-product__content">
+                                        <div class="cart-modal-product__text">
+                                            <h3 class="cart-modal-product__title">Женские кроссовки Puma Force 1 Shadow</h3>
+                                            <span class="cart-modal-product__price">8 789 ₽</span>
+                                        </div>
+                                        <button class="cart-modal-product">Удалить</button>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="cart-modal__form">
+                        <input type="text" class="input" name="name" placeholder="Ваше имя">
+                        <input type="tel" class="input" name="tel" placeholder="Номер телефона">
+                        <input type="email" class="input" name="email" placeholder="E-mail">
+                        <button class="btn--primary cart-modal__btn">Оформить заказ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/cart.js"></script>
     <script src="js/simplebar.js"></script>
     <script src="js/inputRange.js"></script>

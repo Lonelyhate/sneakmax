@@ -236,3 +236,133 @@
 .prod-chars__item {
     
 }
+
+.modal__buy {
+    
+}
+.modal__overlay-buy {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.modal__content-buy {
+    display: block;
+    margin: 0 auto;
+    width: 580px;
+    padding: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.modal__overlay-buy--visable{
+    opacity: 1;
+    visibility: visible;
+}
+.modal__content-buy--visable{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.cart-modal__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.cart-modal__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-main);
+
+}
+.cart-modal__order-number {
+    font-family: 'Intro-book', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B2B5BB;
+}
+.cart-modal-order {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 30px;
+}
+.cart-modal-order__top {
+    font-family: 'Intro-book', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #b2b5bb;
+}
+.cart-modal-order__quantity {
+    margin-bottom: 10px;
+    display: block;
+    span{
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--color-main);
+    }
+}
+.cart-modal-order__summ {
+    margin-bottom: 10px;
+    display: block;
+    span{
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--color-main);
+    }
+}
+.cart-modal-order__content {
+}
+.cart-modal-order__show {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0;
+    border: none;
+    font-family: 'Intro-book';
+    font-size: 16px;
+    background: none;
+    color: var(--color-main);
+    svg{
+        margin-left: 5px;
+    }
+}
+.cart-modal-order__list {
+}
+.cart-modal-order__item {
+}
+.cart-modal-order__product {
+}
+.cart-modal-product {
+}
+.cart-modal-product__image {
+}
+.cart-modal-product__content {
+}
+.cart-modal-product__text {
+}
+.cart-modal-product__title {
+}
+.cart-modal-product__price {
+}
+.cart-modal__form {
+}
+.input {
+}
+.btn--primary {
+}
+.cart-modal__btn {
+}
