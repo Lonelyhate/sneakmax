@@ -86,6 +86,11 @@
     min-width: 16px;
     background-color: var(--color-accent);
     font: var(--small);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
     color: var(--color-white);
     pointer-events: none;
+    &--visable {
+        opacity: 1;
+    }
 }

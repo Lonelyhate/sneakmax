@@ -299,6 +299,7 @@
     border: 1px solid #d9d9d9;
     border-radius: 4px;
     padding: 30px;
+    margin-bottom: 20px;
 }
 .cart-modal-order__top {
     font-family: 'Intro-book', sans-serif;
@@ -336,6 +337,7 @@
     font-size: 16px;
     background: none;
     color: var(--color-main);
+    cursor: pointer;
     svg{
         margin-left: 5px;
     }
@@ -343,20 +345,74 @@
 .cart-modal-order__list {
 }
 .cart-modal-order__item {
+    &:not(:last-child) {
+        margin-bottom: 14px;
+    }
 }
 .cart-modal-order__product {
 }
 .cart-modal-product {
+    display: flex;
+    align-items: center;
 }
 .cart-modal-product__image {
+    width: 80px;
+    height: 45px;
+    margin-right: 10px;
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 .cart-modal-product__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .cart-modal-product__text {
 }
 .cart-modal-product__title {
+    font-family: "Intro-book", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-main);
+    margin-right: 7px;
+    margin-bottom: 10px;
 }
 .cart-modal-product__price {
+    font-size: 16px;
+    color: var(--color-main);
+    font-weight: 700;
+}
+.cart-modal-product_del{
+    font-family: "intro-book";
+    font-weight: 400;
+    font-size: 14px;
+    color: #b2b5bb;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.cart-modal__input{
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    width: 100%;
+    font-family: "Intro-book", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b2b5bb;
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    &::placeholder{
+        font-family: "Intro-book", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #b2b5bb;
+    }
 }
 .cart-modal__form {
 }
@@ -365,4 +421,8 @@
 .btn--primary {
 }
 .cart-modal__btn {
+    margin-top: 20px;
+    border: none;
+    font-size: 16px;
+    width: 221px;
 }

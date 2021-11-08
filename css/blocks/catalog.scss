@@ -308,6 +308,10 @@ input[type=range] {
     &:first-child{
         margin-right: 40px;
     }
+    &--disabled{
+        opacity: 0.4;
+        pointer-events: none;
+    }
 }
 .product__title {
     font-family: 'Intro-book', sans-serif;

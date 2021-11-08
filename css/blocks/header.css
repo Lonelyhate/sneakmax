@@ -101,7 +101,14 @@
   min-width: 16px;
   background-color: var(--color-accent);
   font: var(--small);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   color: var(--color-white);
   pointer-events: none;
+}
+
+.cart__count--visable {
+  opacity: 1;
 }
 /*# sourceMappingURL=header.css.map */

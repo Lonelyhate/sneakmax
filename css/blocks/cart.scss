@@ -80,6 +80,7 @@
     cursor: pointer;
     background: none;
     svg{
+        pointer-events: none;
         path{
             transition: all 0.2s linear;
         }

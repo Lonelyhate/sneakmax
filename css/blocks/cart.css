@@ -95,6 +95,10 @@
   background: none;
 }
 
+.mini-product__delete svg {
+  pointer-events: none;
+}
+
 .mini-product__delete svg path {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
